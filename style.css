@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header {
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #28a8e0;
+}
+h1 {
+    color: black;
+}
+ul > li {
+    color: white;
+}
