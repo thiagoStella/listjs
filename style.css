@@ -14,14 +14,88 @@ header {
 .menu {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
+
+}
+section {
+    display: flex;
 }
 
 nav {
     background-color: #28a8e0;
+    width: 220px;
+    height: 100vh;
 }
-h1 {
+.titulomenu {
     color: black;
+    padding: 20px;
+    font-size: 13px;
 }
-ul > li {
+li {
+    margin-left: 20px;
+}
+ul {
+    gap: 20px;
+}
+a {
     color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    margin-top: 50 px;
+}
+
+img {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 300px;
+    
+}
+.texto-logo{
+    margin-top: 100px;
+    color:orange;
+    font-size: 80px;
+    
+}
+
+/* pagina de download */
+
+.downloadconteudo{
+    padding: 20px;
+    
+    
+}
+p {
+    margin: 15px;
+}
+.azul{
+    color: #28a8e0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #28a8e0;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+table td, table th {
+    padding:5px;
+}
+
+h1 {
+    padding:20px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+p{
+    font-size: 15px;
 }
