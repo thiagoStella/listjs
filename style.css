@@ -78,12 +78,15 @@ p {
 }
 
 .btn {
+    width: 200px;
     background-color: #28a8e0;
     color: white;
     padding: 10px;
     margin: 10px;
     border: none;
     border-radius: 5px;
+    height: 40px;
+    cursor: pointer
 }
 
 table td, table th {
@@ -94,8 +97,12 @@ h1 {
     padding:20px;
     font-weight: normal;
     font-size: 20px;
+    color: black;
 }
 
 p{
     font-size: 15px;
+}
+button {
+    display: block;
 }

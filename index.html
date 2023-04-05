@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="guides/demo/screen.css">
+    <link rel="stylesheet" type="text/css" href="guides/demo/guides.css">  
     <link rel="stylesheet" href="style.css">
     <title>List.Js</title>
 </head>
@@ -19,7 +21,7 @@
         <nav>
             <ul>
                 <ul>
-                    <h1 class="titulomenu">Overview</h1>
+                    <a href="#"><h1 class="overview">Overview</h1></a>
                     <li><a href="download.html">Download</a></li>
                     <li><a href="#">TLDR / Features</a></li>
                     <li><a href="#">Changelog</a></li>
@@ -28,7 +30,7 @@
                 </ul>
 
                 <ul>
-                    <h1 class="titulomenu">Documentation</h1>
+                    <a href="#"><h1 class="documentation">Documentation</h1></a>
                     <li><a href="#">Getting started</a></li>
                     <li><a href="#">List API</a></li>
                     <li><a href="#">Item API</a></li>
@@ -36,7 +38,7 @@
                     <li><a href="#">FAQ</a></li>                
                 </ul>
                 <ul>
-                    <h1 class="titulomenu">Examples</h1>
+                    <a href="#"><h1 class="examples">Examples</h1></a>
                     <li><a href="add.html">Add, get, remove</a></li>
                     <li><a href="#">Data attributes + custom</a></li>
                     <li><a href="#">Existing list and add</a></li>
@@ -49,9 +51,15 @@
             </ul>
         </nav>
         <aside class="principal">
+            
             <span><img src="images/listlogo.png" alt="logo"></span>
             <h1 class="texto-logo">List.js<h1>
         </aside>
-    </section>
-</body>
+        
+        <button class="btn" id="demo">Iniciar o tutorial</button>
+        <!-- ! Usar em todas as páginas que for ter tutorial (Próximas duas linhas) -->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="guides/dist/guides.js"></script>
+        <script type="text/javascript" src="tutorial.js"></script>
+    </body>
 </html>

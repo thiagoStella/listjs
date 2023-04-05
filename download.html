@@ -1,12 +1,15 @@
-<!DOCTYPE html><html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>List.Js</title>
-    </head>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="guides/demo/screen.css">
+    <link rel="stylesheet" type="text/css" href="guides/demo/guides.css">  
+    <link rel="stylesheet" href="style.css">
+    <title>List.Js</title>
+</head>
     <body>
         <header>
             <div class="menu">
@@ -50,18 +53,23 @@
             <aside class="downloadconteudo">
                 <h1>Download</h1>
                 <p>The core thing in List.js have always been simplicity. It should require as little effort as possible to use the script and it's features.</p>
-                <p>Via <span class="azul">GitHub</span></p>
+                <div class="github"><p>Via <span class="azul">GitHub</span></p></div>
                 <button class="btn b1">Download compressed List.js</button>
                 <br>
                 <button class="btn b2">Download uncompressed List.js</button>
-                <p>Via <span class="azul">NPM</span></p>
+                <div class="npm"><p>Via <span class="azul">NPM</span></p></div>
+                
                 <p>npm install list.js</p>
-                <p>Via <span class="azul">Bower</span></p>
+                <div class="bower"><p>Via <span class="azul">Bower</span></p></div>
                 <p>bower install list.js</p>
-                <p>Via <span class="azul">CDNJS</span></p>
-                <code>script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"</code>
+                <div class="cdn"><p>Via <span class="azul">CDNJS</span></p></div>
 
             </aside>
+            <button class="btn" id="demo3">Iniciar o tutorial</button>
         </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="guides/dist/guides.js"></script>
+        <script type="text/javascript" src="tutorial.js"></script>
     </body>
     </html>
